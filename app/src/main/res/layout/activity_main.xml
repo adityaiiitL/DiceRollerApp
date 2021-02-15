@@ -8,19 +8,20 @@
 
     <Button
         android:id="@+id/roll_button"
-        android:layout_width="101dp"
-        android:layout_height="58dp"
+        android:layout_width="135dp"
+        android:layout_height="62dp"
         android:text="Roll"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.72" />
+        app:layout_constraintVertical_bias="0.755" />
 
     <ImageView
         android:id="@+id/dice_imageview"
-        android:layout_width="185dp"
-        android:layout_height="352dp"
+        android:layout_width="283dp"
+        android:layout_height="347dp"
         app:layout_constraintBottom_toTopOf="@+id/roll_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
